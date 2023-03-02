@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div:hover {
+    color: red;
+}
+
+div>p {
+    /* significa que o segundo parâmetro "p" é filho da primeira "div" porem só vai alterar o segundo parâmetro "p" */
+    display: none;
+}
+
+div:hover>p {
+    display: block;
+    color: white;
+    background-color: red;
+    width: 140px;
+}

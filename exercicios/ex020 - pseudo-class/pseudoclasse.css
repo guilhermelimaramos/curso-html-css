@@ -1,0 +1,14 @@
+div {
+    background-color: lightgrey;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 2px;
+    flex-direction: row;
+    display: inline-block;
+}
+
+div:hover {
+    background-color: blueviolet;
+}

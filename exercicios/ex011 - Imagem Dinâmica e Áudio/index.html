@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias em HTML</title>
+</head>
+
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua ou aumente seu nevegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="image/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="image/foto-m.png" type="image/png">
+        <img src="image/foto-g.png" alt="foto grande">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Reprodução de áudio em HTML5</p>
+    <audio src="midia/enemy.mp3" controls></audio>
+    <p></p>
+    <!-- FORMATOS PERMITIDOS: MP3, WAV e OGG-->
+    <audio preload="metadata" controls loop>
+        <source src="midia/night-run-away.mp3" type="audio/mpeg"> <!--PARA MEDIAS OGG o parâmetro type= audio/ogg e para MEDIAS WAV o parâmetro type= audio/wav-->
+    </audio>
+</body>
+
+</html>

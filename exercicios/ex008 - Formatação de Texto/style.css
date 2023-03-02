@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(14, 12, 12, 0.925);
+    color: white;
+}
+
+h1 {
+    color: rgb(18, 94, 18);
+}
+
+h2 {
+    color: rgb(57, 117, 117);
+}
+
+mark {
+    background-color: lime;
+}
